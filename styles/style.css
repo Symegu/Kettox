@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+}
+
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button{font-family: inherit;}
+nav, header, footer{display: block;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+
+.header {
+}
+.header__logo {
+}
+.header__text {
+}
+.header__paragraph {
+}
+.promo {
+}
+.promo__heading {
+}
+.heading {
+}
+.promo__subheading {
+}
+.subheading {
+}
+.promo__features {
+}
+.feature {
+}
+.promo-form {
+}
+.form {
+}
+.form__description {
+}
+.form__description__red {
+}
+.promo-form__prices {
+}
+.promo-form__price {
+}
+.price-text {
+}
+.price-cost {
+}
+.price-cost-orange {
+}
+.promo-form__label {
+}
+.label {
+}
+.promo-form__input {
+}
+.input {
+}
+.promo-form__button {
+}
+.promo-form__security {
+}
+.advantages {
+}
+.advantages__heading {
+}
+.advantages__list {
+}
+.advantages__item {
+}
+.advantages__item__heading {
+}
+.advantages__item__descriptions {
+}
+.advantages__item__description {
+}
+.advantages__item__image {
+}
+.compound {
+}
+.compound__heading {
+}
+.compound__subheading {
+}
+.compound__list {
+}
+.compoud__item {
+}
+.compound__text {
+}
+.compound__item__heading {
+}
+.compound__item__description {
+}
