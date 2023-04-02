@@ -2,19 +2,6 @@ document.addEventListener('mouseleave', () => {
   const popup = document.querySelector('.popup');
   popup.style.display = 'flex';
 
-  // const hidePopup = setTimeout(() => {
-  //   popup.style.display = 'none';
-  //   clearInterval(timerInterval);
-  // }, 10000);
-
-  document.addEventListener('click', (event) => {
-    if (event.target !== popup) {
-      popup.style.display = 'none';
-      // clearInterval(hidePopup);
-      clearInterval(timerInterval);
-    }
-  });
-
   const endTime = new Date().setHours(23, 59, 59);
   const timerInterval = setInterval(updateTimer, 1000);
 
@@ -69,4 +56,17 @@ document.addEventListener('mouseleave', () => {
     secondsText.innerText = getSecondsText(secondsLeft);
 
   }
+
+  // const hidePopup = setTimeout(() => {
+  //   popup.style.display = 'none';
+  //   clearInterval(timerInterval);
+  // }, 10000);
+
+  document.addEventListener('click', (event) => {
+    if (event.target !== popup) {
+      popup.style.display = 'none';
+      // clearInterval(hidePopup);
+      clearInterval(timerInterval);
+    }
+  });
 });

@@ -453,7 +453,7 @@ ul li{list-style-type: none;}
 
     .pill__oval {
         position: absolute;
-        transform: rotate(-40deg);
+        transform: rotateX();
         top: 165px;
         left: 95px;
 
@@ -465,7 +465,7 @@ ul li{list-style-type: none;}
 
     .pill__pic {
         position: absolute;
-        transform: rotate(51deg);
+        transform: rotateX(51deg);
         top: 75px;
         left: 100px;
     }
