@@ -639,7 +639,7 @@ ul li{list-style-type: none;}
 
 .popup-left {
     width: 50%;
-    height: 100%;
+    height: 90%;
 
     background-image: url('../assets/redCapsule.png');
     background-position: center;
