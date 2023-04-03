@@ -23,7 +23,7 @@ slider.addEventListener('touchmove', (e) => {
   const diffY = e.touches[0].clientY - startY;
   if (Math.abs(diffX) > Math.abs(diffY)) {
     e.preventDefault();
-    slides.style.transform = `translateX(-${currentSlide * slideWidth - diffX + (currentSlide * 102)}px)`;
+    slides.style.transform = `translateX(-${currentSlide * slideWidth - diffX + (currentSlide * 101)}px)`;
   }
 });
 
@@ -40,7 +40,7 @@ slider.addEventListener('touchend', (e) => {
       currentSlide = slide.length - 1;
     }
   }
-  slides.style.transform = `translateX(-${(currentSlide * slideWidth) + (currentSlide * 102)}px)`;
+  slides.style.transform = `translateX(-${(currentSlide * slideWidth) + (currentSlide * 101)}px)`;
   startX = null;
   startY = null;
 });
@@ -50,7 +50,7 @@ prevBtns.forEach((prevBtn) => prevBtn.addEventListener('click', () => {
   if (currentSlide < 0) {
     currentSlide = 0;
   }
-  slides.style.transform = `translateX(-${(currentSlide * slideWidth) + (currentSlide * 102)}px)`;
+  slides.style.transform = `translateX(-${(currentSlide * slideWidth) + (currentSlide * 101)}px)`;
 }));
 
 nextBtns.forEach((nextBtn) => nextBtn.addEventListener('click', () => {
@@ -58,5 +58,5 @@ nextBtns.forEach((nextBtn) => nextBtn.addEventListener('click', () => {
   if (currentSlide > slide.length - 1) {
     currentSlide = slide.length - 1;
   }
-  slides.style.transform = `translateX(-${(currentSlide * slideWidth) + (currentSlide * 102)}px)`;
+  slides.style.transform = `translateX(-${(currentSlide * slideWidth) + (currentSlide * 101)}px)`;
 }));

@@ -137,6 +137,8 @@ ul li{list-style-type: none;}
 
     .promo__pic {
         position: absolute;
+        width: 40%;
+
         z-index: 1;
         bottom: 0;
         left: 36%;
@@ -380,6 +382,18 @@ ul li{list-style-type: none;}
         position: absolute;
         bottom: 0;
         z-index: 1;
+    }
+
+    .advantages__item__image-first {
+        width: 260px;
+    }
+
+    .advantages__item__image-center {
+        width: 225px;
+    }
+
+    .advantages__item__image-last {
+        width: 180px;
     }
 
     .advantages__item__line {
@@ -810,11 +824,11 @@ ul li{list-style-type: none;}
     }
 
     .promo__pic {
-        bottom: 35%;
-        left: 0px;
+        bottom: 28%;
+        left: -30px;
         right: 0;
 
-        width: 100%;
+        width: 150%;
     }
 
     .promo__circle {
