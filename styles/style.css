@@ -656,7 +656,7 @@ ul li{list-style-type: none;}
     height: 90%;
 
     background-image: url('../assets/redCapsule.png');
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -1122,7 +1122,7 @@ ul li{list-style-type: none;}
         }
 
         .footer__pic {
-            bottom: 28%;
+            bottom: 20%;
         }
 
 }
